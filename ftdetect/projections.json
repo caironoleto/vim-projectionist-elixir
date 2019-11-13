@@ -63,6 +63,9 @@
     ]
   },
   "lib/*router.ex": {
-    "type": "router"
+    "type": "router",
+    "related": [
+      "{dirname|dirname}/router.ex"
+    ]
   }
 }
