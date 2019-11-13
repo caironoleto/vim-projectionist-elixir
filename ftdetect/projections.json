@@ -61,5 +61,8 @@
     "template": [
       "<%# {basename} eex template %>"
     ]
+  },
+  "lib/*_router.ex": {
+    "type": "router"
   }
 }
