@@ -51,7 +51,7 @@
       "end"
     ]
   },
-  "*eex": {
+  "lib/*eex": {
     "type": "template",
     "related": [
       "{dirname|dirname|dirname}/controllers/{dirname|basename}_controller.ex",
