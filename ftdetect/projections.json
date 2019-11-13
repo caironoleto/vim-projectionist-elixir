@@ -13,11 +13,11 @@
     "alternate": "lib/{}.ex",
     "template": [
       "# test/{}_test.exs",
-      "defmodule XXX do", 
+      "defmodule XXX do",
       "end"
     ]
   },
-  "*_controller.ex": {
+  "lib/*_controller.ex": {
     "type": "controller",
     "related": [
       "{dirname|dirname}/views/{basename}_view.ex"
@@ -28,7 +28,7 @@
       "end"
     ]
   },
-  "*_live.ex": {
+  "lib/*_live.ex": {
     "type": "live",
     "related": [
       "{dirname|dirname}/views/{basename}_view.ex"
@@ -39,7 +39,7 @@
       "end"
     ]
   },
-  "*_view.ex": {
+  "lib/*_view.ex": {
     "type": "view",
     "related": [
       "{dirname|dirname}/controllers/{basename}_controller.ex",
